@@ -1,5 +1,7 @@
 # current-file-breadcrumb package
 
-A short description of your package.
+Display breadcrumb of current file above the editor.
+You can expand the folder when clicked item in breadcrumb.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+# TODO
+- Customize color

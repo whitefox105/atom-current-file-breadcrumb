@@ -2,7 +2,7 @@
   "name": "current-file-breadcrumb",
   "main": "./lib/current-file-breadcrumb",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Display breadcrumb of current file above the editor.",
   "keywords": [
   ],
   "activationCommands": {
