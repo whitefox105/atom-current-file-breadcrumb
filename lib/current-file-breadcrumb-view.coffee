@@ -41,7 +41,7 @@ class CurrentFileBreadcrumbView
       depth = e.target.getAttribute('data-depth')
       atom.commands.dispatch(atom.views.getView(atom.workspace), 'tree-view:reveal-active-file')
 
-      treeView = atom.views.getView(atom.workspace.getLeftPanels()[0].getItem()
+      treeView = atom.views.getView(atom.workspace.getLeftPanels()[0].getItem())
       for i in [1..depth]
         atom.commands.dispatch(treeView, 'tree-view:collapse-directory')
       atom.commands.dispatch(treeView, 'tree-view:expand-item')
