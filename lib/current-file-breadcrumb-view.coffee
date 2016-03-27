@@ -43,8 +43,8 @@ class CurrentFileBreadcrumbView
 
       treeView = atom.views.getView(atom.workspace.getLeftPanels()[0].getItem()
       for i in [1..depth]
-        atom.commands.dispatch(treeView), 'tree-view:collapse-directory')
-      atom.commands.dispatch(treeView), 'tree-view:expand-item')
+        atom.commands.dispatch(treeView, 'tree-view:collapse-directory')
+      atom.commands.dispatch(treeView, 'tree-view:expand-item')
 
     for name in paths
       item = document.createElement('a')
