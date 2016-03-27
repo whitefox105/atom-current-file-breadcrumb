@@ -1,7 +1,7 @@
 {
   "name": "current-file-breadcrumb",
   "main": "./lib/current-file-breadcrumb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display breadcrumb of current file above the editor.",
   "keywords": [],
   "activationCommands": {
